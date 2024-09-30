@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('https://i.pinimg.com/564x/e7/8d/f0/e78df0bae9827d5276a44d338187ab75.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+
+h1{ 
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.dataTable {
+
+    width: 80%;
+    border-collapse: collapse;
+    height: 80%;
+    margin-left: 300px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: cornflowerblue;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.navbar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    font-family:'Arial, sans-serif';
+}
+
+.navbar a:hover {
+    background-color: #49cbff;
+}
+
+.dataForm {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 300px;
+}
